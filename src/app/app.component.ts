@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'DOTA Viewer';
+  description = 'A personal tool for viewing DOTA 2 statistics'
 }
