@@ -1,0 +1,9 @@
+@import "../../styles/_var";
+
+.sidenav {
+  width: $width__sidenav;
+  max-width: $width__sidenav;
+  background: $background-color__sidenav-list;
+  overflow-x: hidden;
+  z-index: $z-index__md-sidenav;
+}

@@ -18,9 +18,14 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/normalize.css/normalize.css",
+        "../node_modules/nvd3/build/nv.d3.css",
+        "../node_modules/quill/dist/quill.snow.css",
         "styles.scss"
       ],
       "scripts": [
+        "../node_modules/hammerjs/hammer.js",
+        "../node_modules/sortablejs/Sortable.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
